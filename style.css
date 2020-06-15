@@ -17,12 +17,7 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
-#name.form-control {
-    margin-left: 21.2%;
-}
-#email.form-control {
-    margin-left: 14.5%;
-}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -1043,5 +1038,18 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+}
+
+@media screen and (max-width : 1024px) {
+
+    img {
+        width: 100%;
+    }
+    .center-block {
+        width: 50%;
+    }
+    #name.form-control, #email.form-control {
+        margin: 0;
     }
 }
