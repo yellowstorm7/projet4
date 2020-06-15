@@ -17,7 +17,12 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
-
+#name.form-control {
+    margin-left: 21.2%;
+}
+#email.form-control {
+    margin-left: 14.5%;
+}
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -775,7 +780,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: black!important;
 }
 
 .btn-atomic-tangerine {
