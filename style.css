@@ -24,9 +24,6 @@ p {
 .col-sm-6 p {
     text-align: left;
 }
-.navbar-page2 {
-    padding-left: 18%;
-}
 .nav-menu {
     text-align: right;
     padding-top: 2%;
@@ -93,8 +90,12 @@ p {
     margin-bottom: 0;
     z-index: 1;
 }
-
+.navbar-page2 {
+    margin-left: 19%;
+    padding-bottom: 1%;
+}
 .navbar-brand {
+    float: left;
     height: auto;
     padding: 3px 15px;
     font-size: 25px;
