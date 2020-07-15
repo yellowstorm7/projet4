@@ -3,8 +3,6 @@ body {
     padding: 0;
     background: #FFF;
     overflow-x: hidden;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
 }
 
 a,
@@ -39,9 +37,6 @@ p {
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     position: relative;
 }
@@ -340,6 +335,14 @@ h1 {
         margin-right: 3%;
         font-size: 2em;
     }
+    h3 {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    img {
+        width: 90%;
+        margin-left: 4%;
+    }
     .social {
         display: flex;
         flex-direction: row;
@@ -353,13 +356,13 @@ h1 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -376,10 +379,6 @@ h1 {
     #hero-bloc {
         overflow-x: hidden;
         position: relative;
-    }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
   
 }
@@ -457,12 +456,15 @@ h1 {
 @media screen and (max-width : 1024px) {
 
     img {
-        width: 100%;
+        width: 90%;
     }
     .center-block {
         width: 50%;
     }
     #name.form-control, #email.form-control {
         margin: 0;
+    }
+    .navbar-header {
+        width: 40%;
     }
 }
